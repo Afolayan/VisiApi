@@ -8,16 +8,29 @@
  */
 class config{
 
+    /**
+     * @var string Google API (server) key
+     */
     var $GOOGLE_API_KEY = "AIzaSyDzHveYbmrrMkLd9-TK-K4rWLWtqtsSnFQ";
 
+    /**
+     *
+     */
     function __construct() {
 
     }
 
+    /**
+     *
+     */
     function __destruct() {
     }
 
 
+    /**
+     * @return mysqli  (combines mysql database
+     * connection stuff
+     */
     public function getDBConnection(){
         $DB_HOST =  "localhost";
         $DB_USER = "root";
@@ -33,11 +46,24 @@ class config{
         return $con;
     }
 
+    /**
+     * @param $con (mysql connection)
+     */
     public function close($con) {
         mysqli_close($con);
     }
 
+    /**
+     * @param $string
+     * @return mixed (pure string)
+     */
     public function real_escape_string($string) {
         return $this->con->real_escape_string($string);
     }
+
+    /*
+     * add.php == returns 101
+     * update.php == returns 201
+     *
+     */
 }

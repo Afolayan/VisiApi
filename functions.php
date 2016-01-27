@@ -21,11 +21,16 @@ class functions{
 
     }
 
+    /**
+     * @param $userId
+     * @param $email
+     * @param $regId
+     * @return mixed
+     */
     public function registerUser($userId, $email, $regId){
         $json = array();
 
         $time = date('Y-m-d H:i:s');
-
         $mysql = $this->config->getDBConnection();
 
         if(!$mysql){
@@ -51,6 +56,12 @@ class functions{
 
         return $last_id;
     }
+
+
+    /**
+     * @param $email
+     * @return array
+     */
     public function validateUserEmail($email){
         $mysqli = $this->config->getDBConnection();
         $response = array();
@@ -88,6 +99,10 @@ class functions{
         return $response;
     }
 
+    /**
+     * @param $chapter
+     * @return array
+     */
     public function returnUserChapter($chapter){
         $mysqli = $this->config->getDBConnection();
         $response = array();
@@ -122,6 +137,9 @@ class functions{
         return $response;
     }
 
+    /**
+     * @return array
+     */
     public function returnAll(){
         $mysqli = $this->config->getDBConnection();
         $response = array();
@@ -155,6 +173,11 @@ class functions{
     }
 
 
+    /**
+     * @param $message
+     * @param $phone
+     * @return mixed
+     */
     public function notify($message, $phone){
         $mysqli = $this->config->getDBConnection();
         $con = new config();
@@ -210,6 +233,10 @@ class functions{
         return $result;
     }
 
+    /**
+     * @param $message
+     * @return mixed
+     */
     public function notifyForUpdate($message){
         $mysqli = $this->config->getDBConnection();
         $con = new config();
@@ -265,6 +292,18 @@ class functions{
         return $result;
     }
 
+    /**
+     * @param $userId
+     * @param $name
+     * @param $gender
+     * @param $school
+     * @param $course
+     * @param $email
+     * @param $phone_number
+     * @param $dobNumber
+     * @param $isAlumni
+     * @return array
+     */
     public function addNewStudent($userId, $name, $gender, $school,
                                   $course, $email, $phone_number,
                                   $dobNumber, $isAlumni){
@@ -311,18 +350,49 @@ class functions{
     }
 
 
-    public function updateStudent($userId, $newHighScore){
-        $time = date('Y-m-d H:i:s');
+    /**
+     * @param $id
+     * @param $userId
+     * @param $name
+     * @param $gender
+     * @param $school
+     * @param $course
+     * @param $email
+     * @param $phone_number
+     * @param $dobNumber
+     * @param $isAlumni
+     * @return string
+     */
+    public function updateStudent( $id, $userId, $name, $gender, $school,
+                                  $course, $email, $phone_number,
+                                  $dobNumber, $isAlumni){
 
         $mysql = $this->config->getDBConnection();
 
         if(!$mysql){
             die('MySQL connection failed'.$mysql->error);
         }
+        $newDate = date("d-m-Y", strtotime($dobNumber));
+        $time = date('Y-m-d H:i:s');
+        $userName = $this->getUserFromId( $userId );
+
+        $updater = $userName ." ".$time ;
+
+        $name = $mysql->real_escape_string( $name );
+        $email = $mysql->real_escape_string( $email );
+        $gender = $mysql->real_escape_string( $gender );
+        $school = $mysql->real_escape_string( $school );
+        $course = $mysql->real_escape_string( $course );
+        $phone_number = $mysql->real_escape_string( $phone_number );
+        $dobNumber = $mysql->real_escape_string( $dobNumber );
+        $isAlumni = $mysql->real_escape_string( $isAlumni );
 
         $sql = "UPDATE naas
-                SET high_score = '$newHighScore', time_here = '$time'
-                WHERE id = '$userId'
+                SET name = '$name', gender = '$gender', school = '$school',
+                course = '$course', email = '$email', phone_number = '$phone_number',
+                dobNumber = '$dobNumber', date_of_birth = '$newDate', update_info = '$updater',
+                isAlumni = '$isAlumni'
+                WHERE id = '$id'
                 ";
 
         $result = $mysql->query($sql, MYSQLI_ASSOC);
@@ -334,6 +404,10 @@ class functions{
         }
     }
 
+    /**
+     * @param $userId
+     * @return string
+     */
     public function getUserFromId($userId){
         $mysql = $this->config->getDBConnection();
         if(!$mysql){

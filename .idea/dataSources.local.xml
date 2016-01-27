@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - jcedarco_works@localhost" uuid="a78fa6f8-bb07-46e4-8bd5-afbeb1173968">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>jcedarco_works.*</schema-pattern>
+      <default-schemas>jcedarco_works.*</default-schemas>
+    </data-source>
+  </component>
+</project>

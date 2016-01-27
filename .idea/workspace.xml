@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddc158f7-dcdd-4334-ab79-e60d9e07c86c" name="Default" comment="" />
+    <list default="true" id="ddc158f7-dcdd-4334-ab79-e60d9e07c86c" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\wamp\www\visi\VisiApi" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="visi.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,68 +71,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5421687">
-              <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-              <folding>
-                <element signature="n#validateUserEmail#0;n#functions#0;n#!!top" expanded="false" />
-                <element signature="n#returnUserChapter#0;n#functions#0;n#!!top" expanded="false" />
-                <element signature="n#returnAll#0;n#functions#0;n#!!top" expanded="false" />
-                <element signature="n#notify#0;n#functions#0;n#!!top" expanded="false" />
-                <element signature="n#notifyForUpdate#0;n#functions#0;n#!!top" expanded="false" />
-                <element signature="n#addNewStudent#0;n#functions#0;n#!!top" expanded="false" />
-                <marker date="1453926266380" expanded="true" signature="738:828" placeholder="INSERT INTO ..." />
-                <marker date="1453926266380" expanded="true" signature="738:855" placeholder="INSERT INTO ..." />
-                <marker date="1453926266380" expanded="true" signature="854:855" placeholder="INSERT INTO ..." />
-                <marker date="1453926266380" expanded="true" signature="1445:1480" placeholder="SELECT * FRO..jamb_only_table..." />
-                <marker date="1453926266380" expanded="true" signature="2940:2976" placeholder="SELECT * FRO..naas..." />
-                <marker date="1453926266380" expanded="true" signature="4308:4326" placeholder="SELECT * FRO..naas..." />
-                <marker date="1453926266380" expanded="true" signature="5622:5651" placeholder="SELECT * FRO..appRegistration..." />
-                <marker date="1453926266380" expanded="true" signature="7235:7264" placeholder="SELECT * FRO..appRegistration..." />
-                <marker date="1453926266380" expanded="true" signature="9626:9884" placeholder="INSERT INTO ..." />
-                <marker date="1453926266380" expanded="true" signature="10450:10568" placeholder="UPDATE user_..." />
-                <marker date="1453926266380" expanded="true" signature="11017:11057" placeholder="SELECT name ..subjects..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_all_students.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_all_students.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.346154">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jcedarco_works.naas" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jcedarco_works.naas" pinned="false" current-in-tab="true">
         <entry file="dbDummy://dbtable:/98f28db8/a78fa6f8-bb07-46e4-8bd5-afbeb1173968/jcedarco_works..naas">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
               <column-attributes>
                 <column name="name" languageId="MySQL" />
               </column-attributes>
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -136,9 +95,6 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="FORCE_PUSH_ALLOWED" value="true" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response7.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -154,6 +110,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a78fa6f8-bb07-46e4-8bd5-afbeb1173968/console.sql" />
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/VisiApi/functions.php" />
       </list>
     </option>
   </component>
@@ -197,7 +154,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,6 +174,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -225,7 +182,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VisiApi-Visi" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -785,29 +742,35 @@
       <option name="project" value="LOCAL" />
       <updated>1453927397306</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1453930791079</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1453930791079</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.094791666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21927084" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5290391" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5290391" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -838,136 +801,41 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="313" column="4" selection-start-line="313" selection-start-column="4" selection-end-line="313" selection-end-column="4" />
-          <folding>
-            <element signature="n#validateUserEmail#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#returnUserChapter#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#returnAll#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#notify#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#notifyForUpdate#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#addNewStudent#0;n#functions#0;n#!!top" expanded="false" />
-            <marker date="1453926266380" expanded="true" signature="738:828" placeholder="INSERT INTO ..." />
-            <marker date="1453926266380" expanded="true" signature="738:855" placeholder="INSERT INTO ..." />
-            <marker date="1453926266380" expanded="true" signature="854:855" placeholder="INSERT INTO ..." />
-            <marker date="1453926266380" expanded="true" signature="1445:1480" placeholder="SELECT * FRO..jamb_only_table..." />
-            <marker date="1453926266380" expanded="true" signature="2940:2976" placeholder="SELECT * FRO..naas..." />
-            <marker date="1453926266380" expanded="true" signature="4308:4326" placeholder="SELECT * FRO..naas..." />
-            <marker date="1453926266380" expanded="true" signature="5622:5651" placeholder="SELECT * FRO..appRegistration..." />
-            <marker date="1453926266380" expanded="true" signature="7235:7264" placeholder="SELECT * FRO..appRegistration..." />
-            <marker date="1453926266380" expanded="true" signature="9626:9884" placeholder="INSERT INTO ..." />
-            <marker date="1453926266380" expanded="true" signature="10450:10568" placeholder="UPDATE user_..." />
-            <marker date="1453926266380" expanded="true" signature="11017:11057" placeholder="SELECT name ..subjects..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/98f28db8/a78fa6f8-bb07-46e4-8bd5-afbeb1173968/jcedarco_works..appregistration">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
+    <entry file="dbDummy://dbtable:/98f28db8/a78fa6f8-bb07-46e4-8bd5-afbeb1173968/jcedarco_works..naas">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_all_students.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="dbDummy://dbtable:/98f28db8/a78fa6f8-bb07-46e4-8bd5-afbeb1173968/jcedarco_works..naas">
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding />
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_all_students.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check_email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="dbDummy://dbtable:/98f28db8/a78fa6f8-bb07-46e4-8bd5-afbeb1173968/jcedarco_works..appregistration">
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="n#validateUserEmail#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#returnUserChapter#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#returnAll#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#notify#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#notifyForUpdate#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#addNewStudent#0;n#functions#0;n#!!top" expanded="false" />
-            <marker date="1453926266380" expanded="true" signature="738:828" placeholder="INSERT INTO ..." />
-            <marker date="1453926266380" expanded="true" signature="738:855" placeholder="INSERT INTO ..." />
-            <marker date="1453926266380" expanded="true" signature="854:855" placeholder="INSERT INTO ..." />
-            <marker date="1453926266380" expanded="true" signature="1445:1480" placeholder="SELECT * FRO..jamb_only_table..." />
-            <marker date="1453926266380" expanded="true" signature="2940:2976" placeholder="SELECT * FRO..naas..." />
-            <marker date="1453926266380" expanded="true" signature="4308:4326" placeholder="SELECT * FRO..naas..." />
-            <marker date="1453926266380" expanded="true" signature="5622:5651" placeholder="SELECT * FRO..appRegistration..." />
-            <marker date="1453926266380" expanded="true" signature="7235:7264" placeholder="SELECT * FRO..appRegistration..." />
-            <marker date="1453926266380" expanded="true" signature="9626:9884" placeholder="INSERT INTO ..." />
-            <marker date="1453926266380" expanded="true" signature="10450:10568" placeholder="UPDATE user_..." />
-            <marker date="1453926266380" expanded="true" signature="11017:11057" placeholder="SELECT name ..subjects..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_user_chapter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="false" />
-          </folding>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -975,16 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_user_chapter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26941362">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,100 +860,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19036955">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check_email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32362822">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_all_students.php">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="dbDummy://dbtable:/98f28db8/a78fa6f8-bb07-46e4-8bd5-afbeb1173968/jcedarco_works..appregistration">
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/\config">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\config</OriginalElement>
+          <nodes>
+            <node x="" y="">\config</node>
+            <node x="" y="">\functions</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="173.0" y="419.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/98f28db8/a78fa6f8-bb07-46e4-8bd5-afbeb1173968/jcedarco_works..naas">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
           <column-attributes>
             <column name="name" languageId="MySQL" />
           </column-attributes>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.346154">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/98f28db8/a78fa6f8-bb07-46e4-8bd5-afbeb1173968/jcedarco_works..appregistration">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5421687">
-          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding>
-            <element signature="n#validateUserEmail#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#returnUserChapter#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#returnAll#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#notify#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#notifyForUpdate#0;n#functions#0;n#!!top" expanded="false" />
-            <element signature="n#addNewStudent#0;n#functions#0;n#!!top" expanded="false" />
-            <marker date="1453926266380" expanded="true" signature="738:828" placeholder="INSERT INTO ..." />
-            <marker date="1453926266380" expanded="true" signature="738:855" placeholder="INSERT INTO ..." />
-            <marker date="1453926266380" expanded="true" signature="854:855" placeholder="INSERT INTO ..." />
-            <marker date="1453926266380" expanded="true" signature="1445:1480" placeholder="SELECT * FRO..jamb_only_table..." />
-            <marker date="1453926266380" expanded="true" signature="2940:2976" placeholder="SELECT * FRO..naas..." />
-            <marker date="1453926266380" expanded="true" signature="4308:4326" placeholder="SELECT * FRO..naas..." />
-            <marker date="1453926266380" expanded="true" signature="5622:5651" placeholder="SELECT * FRO..appRegistration..." />
-            <marker date="1453926266380" expanded="true" signature="7235:7264" placeholder="SELECT * FRO..appRegistration..." />
-            <marker date="1453926266380" expanded="true" signature="9626:9884" placeholder="INSERT INTO ..." />
-            <marker date="1453926266380" expanded="true" signature="10450:10568" placeholder="UPDATE user_..." />
-            <marker date="1453926266380" expanded="true" signature="11017:11057" placeholder="SELECT name ..subjects..." />
-          </folding>
         </state>
       </provider>
     </entry>
